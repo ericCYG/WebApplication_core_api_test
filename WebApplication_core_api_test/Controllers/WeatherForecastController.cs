@@ -8,7 +8,7 @@ namespace WebApplication_core_api_test.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching","aa"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
