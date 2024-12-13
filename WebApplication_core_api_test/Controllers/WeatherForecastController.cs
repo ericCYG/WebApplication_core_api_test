@@ -22,7 +22,7 @@ namespace WebApplication_core_api_test.Controllers
             _logger = logger;
             _configuration = configuration;
         }
-        //[Authorize]
+        [Authorize]
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
